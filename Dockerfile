@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM ubuntu:latest
 
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
